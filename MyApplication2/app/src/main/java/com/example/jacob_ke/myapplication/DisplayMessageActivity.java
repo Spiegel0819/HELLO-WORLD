@@ -26,7 +26,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
     private String mString;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,12 +45,12 @@ public class DisplayMessageActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
         mString = message;
-        TextView textView = new TextView(this);
+     /*   TextView textView = new TextView(this);
         textView.setTextSize(40);
         textView.setText(message);
         RelativeLayout layout = (RelativeLayout) findViewById(R.id.content);
         layout.addView(textView);
-
+*/
 
         mViewPager = (ViewPager) findViewById(R.id.pager);
         mViewPager.setAdapter(new MyPagerAdapter());
@@ -83,14 +82,18 @@ public class DisplayMessageActivity extends AppCompatActivity {
         public Object instantiateItem(ViewGroup container, int position) {
             switch (position) {
                 case 0:
-
-
+                    View view1 = getLayoutInflater().inflate(R.layout.content_display_message, container, false);
+                    container.addView(view1);
+                    TextView title1 = (TextView) view1.findViewById(R.id.textView_item_title);
+                    title1.setText(mString);
+                    return view1;
                 default:
                     View view = getLayoutInflater().inflate(R.layout.content_tab_message, container, false);
                     container.addView(view);
                     TextView title = (TextView) view.findViewById(R.id.textView_item_title);
-                    title.setText(mString + (position + 1));
+                    title.setText("" + (position + 1));
                     return view;
+
             }
         }
 
