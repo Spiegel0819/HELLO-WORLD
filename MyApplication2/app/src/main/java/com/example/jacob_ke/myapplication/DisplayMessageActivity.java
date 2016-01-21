@@ -26,6 +26,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
     private String mString;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
