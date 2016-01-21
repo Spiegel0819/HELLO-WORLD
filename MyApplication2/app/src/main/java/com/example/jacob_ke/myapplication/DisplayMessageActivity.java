@@ -21,6 +21,7 @@ import android.widget.TextView;
 
 public class DisplayMessageActivity extends AppCompatActivity {
 
+
     private TabLayout mTabs;
     private ViewPager mViewPager;
     private String mString;
