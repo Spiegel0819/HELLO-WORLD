@@ -24,7 +24,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
     private TabLayout mTabs;
     private ViewPager mViewPager;
     private String mString;
-
+/*1*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
