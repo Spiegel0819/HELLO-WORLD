@@ -2,8 +2,6 @@ package com.example.jacob_ke.myapplication;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v4.view.PagerAdapter;
@@ -16,10 +14,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-public class DisplayMessageActivity extends AppCompatActivity {
+public class DisplayMessageActivity_2 extends AppCompatActivity {
 
 
     private TabLayout mTabs;
@@ -44,7 +41,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
         mTabs = (android.support.design.widget.TabLayout) findViewById(R.id.pager_tabs);
 
         Intent intent = getIntent();
-        String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        String message = intent.getStringExtra(DisplayMessageActivity_1.EXTRA_MESSAGE);
         mString = message;
      /*   TextView textView = new TextView(this);
         textView.setTextSize(40);
@@ -107,7 +104,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_child, menu);
+        getMenuInflater().inflate(R.menu.menu_display_child, menu);
         MenuItem searchItem = menu.findItem(R.id.action_search);
         SearchView searchView = (SearchView) MenuItemCompat.getActionView(searchItem);
         // Configure the search info and add any event listeners...

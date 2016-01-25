@@ -4,6 +4,10 @@
         "source": "C:\\Users\\jacob_ke\\Desktop\\Training\\MyApplication2\\app\\src\\main\\res\\menu\\menu_child.xml"
     },
     {
+        "merged": "C:\\Users\\jacob_ke\\Desktop\\Training\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_display_child.xml",
+        "source": "C:\\Users\\jacob_ke\\Desktop\\Training\\MyApplication2\\app\\src\\main\\res\\menu\\menu_display_child.xml"
+    },
+    {
         "merged": "C:\\Users\\jacob_ke\\AndroidStudioProjects\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_child.xml",
         "source": "C:\\Users\\jacob_ke\\AndroidStudioProjects\\MyApplication2\\app\\src\\main\\res\\menu\\menu_child.xml"
     },
@@ -14,5 +18,9 @@
     {
         "merged": "C:\\Users\\jacob_ke\\AndroidStudioProjects\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
         "source": "C:\\Users\\jacob_ke\\AndroidStudioProjects\\MyApplication2\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jacob_ke\\Desktop\\Training\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_display_main.xml",
+        "source": "C:\\Users\\jacob_ke\\Desktop\\Training\\MyApplication2\\app\\src\\main\\res\\menu\\menu_display_main.xml"
     }
 ]
