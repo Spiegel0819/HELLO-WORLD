@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SQLiteDemoActivity!</string>
+    <string name="app_name">SQLiteDemoooooo</string>
+    <string name="enter_name">Name</string>
+    <string name="enter_phone">Phone</string>
+    <string name="enter_email">Email</string>
+    <string name="enter_company">Company</string>
+    <string name="enter_work">Work</string>
+    <string name="enter_id">ID</string>
+</resources>
